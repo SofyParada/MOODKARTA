@@ -1,13 +1,9 @@
 .layout__title {
-  display: flex;
-  justify-content: center; /* Centra horizontalmente el contenido */
-  font-size: 90pt;
+  font-family: 'Fraunces', serif;
+  font-size: 24pt;
   margin: 0;
-  padding: 60px;
-  font-family: "Caprasimo";
-  font-weight: bolder;
-  font-style: normal;
-  color: #303634;
+  padding: 20px;
+  text-align: center;
+  color: rgba(129, 115, 101, 1);
+  font-weight: 900;
 }
-
-
