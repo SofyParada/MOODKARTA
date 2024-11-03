@@ -23,7 +23,7 @@ export const NavBar = () => {
       </NavLink>
       <NavLink
         className={navLinkClass}
-        to='/links'
+        to='/apoyo'
       >
         Apoyo
       </NavLink>
