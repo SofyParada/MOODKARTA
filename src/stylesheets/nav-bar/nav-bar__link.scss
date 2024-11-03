@@ -1,13 +1,11 @@
 .nav-bar__link {
-  margin-right: 15px;
-  margin-left: 15px;
-  text-align: center;
-
-  padding: 8px;
-  color: rgb(155, 88, 67);
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+  color: #303634;
 
   &--active {
-    background: #222;
-    color: white;
+    background: #e67300;
+    color: #f9f4ea;
   }
 }

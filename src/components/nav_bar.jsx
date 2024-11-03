@@ -19,13 +19,7 @@ export const NavBar = () => {
         className={navLinkClass}
         to='/lightbulb'
       >
-        Tendencias
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/links'
-      >
-        Apoyo
+        Ampolleta
       </NavLink>
     </nav>
   )

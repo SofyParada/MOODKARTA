@@ -10,14 +10,14 @@ const Layout = () => {
   return (
     <BrowserRouter>
       <div className='layout'>
-        <h1 className='layout__title'>MoodKarta</h1>
+        <h1 className='layout__title'>MOODKARTA</h1> 
+        <NavBar />
         <div className='layout__page'>
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/lightbulb' element={<LightbulbPage />} />
           </Routes>
         </div>
-        <NavBar className='layout_navbar'/>
       </div>
     </BrowserRouter>
   )
