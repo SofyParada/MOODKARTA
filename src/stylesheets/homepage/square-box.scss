@@ -1,0 +1,34 @@
+.square-box {
+    margin: 10px auto;
+    width: 337px;
+    height: 140px;
+    background-color: #ffffff;
+    border: 2px solid #EFC4A9;
+    border-radius: 5px; // Optional: add rounded corners
+
+    .titulo {
+    font-family: 'Fraunces', serif; // Change to your desired font
+    font-size: 18pt; // Adjust the size as needed
+    color: #817365; // Adjust the color as needed
+    text-align: center;
+    margin-top: 1px;
+    font-weight:900;
+    text-decoration: underline;
+    }
+    .texto {
+    font-family: 'Fraunces', serif; // Change to your desired font
+    font-size: 12pt; // Adjust the size as needed
+    color: #817365; // Adjust the color as needed
+    text-decoration: none;
+    text-align: center;
+    font-weight:light;
+        
+        .button-icon {
+            margin-right: 10px; // Adjust the spacing between the image and text
+            width: 30px; // Adjust the size of the image
+            height: 30px; // Adjust the size of the image
+            margin-bottom: -7px; // Optional: adjust the vertical alignment
+            }
+    
+  }
+}

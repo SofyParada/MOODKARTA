@@ -1,0 +1,25 @@
+.home-page__button {
+    width: 340px; // Adjust the width as needed
+    display: block;
+    margin: 10px auto;
+    background-color: #ffffff; // Change this to your desired background color
+    color: #817365; // Change this to your desired text color
+    padding: 10px; // Optional: add some padding
+    border-radius: 5px; // Optional: add rounded corners
+    border-color: #EFC4A9;
+    border-style: solid;
+    cursor: pointer; // Optional: change the cursor to pointer
+    font-family:  'Fraunces', serif ;
+    font-size: 16pt;
+    font-weight: 600;
+
+    
+    .button-icon {
+        margin-right: 10px; // Adjust the spacing between the image and text
+        width: 30px; // Adjust the size of the image
+        height: 30px; // Adjust the size of the image
+        margin-bottom: -7px; // Optional: adjust the vertical alignment
+      }
+
+  }
+
