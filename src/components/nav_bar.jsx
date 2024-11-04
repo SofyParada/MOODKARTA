@@ -17,7 +17,7 @@ export const NavBar = () => {
       </NavLink>
       <NavLink
         className={navLinkClass}
-        to='/lightbulb'
+        to='/tendencias'
       >
         Tendencias
       </NavLink>
