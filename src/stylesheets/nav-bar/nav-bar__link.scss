@@ -4,10 +4,15 @@
   text-align: center;
 
   padding: 8px;
-  color: rgb(155, 88, 67);
+  color: #9b5843;
 
   &--active {
-    background: #222;
+    background: #EFC4A9;
     color: white;
   }
+}
+
+.nav-bar__icon {
+  width: 24px; /* Ajusta el tamaño según sea necesario */
+  height: 24px;
 }
