@@ -65,8 +65,9 @@ export const HomePage = () => {
           <button onClick={handleSendMessage}>Guardar</button>
         </div>
         
-
-        <img src={Calendario} alt="icon" className="calendario"/>
+        <button className='home-page__button' onClick={() => handleNavigate('/calendario')}>
+          <img src={Calendario} alt="icon" className="calendario"/>
+        </button>
 
 
         <button className='home-page__button' onClick={() => handleNavigate('/encuesta-diaria')}>

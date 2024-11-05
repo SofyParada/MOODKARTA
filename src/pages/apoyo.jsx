@@ -15,7 +15,7 @@ export const Apoyo = () => {
 
   return (
     <div className='apoyo-page'>
-        <p className='apoyo-titulo'> Tendencias
+        <p className='apoyo-titulo'> Recursos de Apoyo
         </p>
         <p className='apoyo-descripcion-1'> Aqui tienes algunos links <br />relacionados a tus emociones <br />
         </p>
