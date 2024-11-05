@@ -14,7 +14,7 @@ export const Encuesta = () => {
   const handleSendMessage = () => {
     if (text.trim() && puntuacion > 0) {
       // Caso 1: Hay texto y una puntuación seleccionada
-      alert('Bitácora guardada!');
+      alert('Encuesta Diaria Guardada!');
       console.log('Message sent:', text);
       window.location.reload(); // Refresh the page
     } else if (!text.trim() && puntuacion === 0) {
@@ -38,8 +38,7 @@ export const Encuesta = () => {
 
   return (
     <div className="encuesta">
-      <h1 classname="titulo-encuesta"><center>Encuesta Diaria</center></h1>
-  
+      <h1 classname="titulo-encuesta">Encuesta Diaria</h1>
       <div className="pregunta">
         <h2 classname="titulo-encuesta"><center>Pregunta 1</center></h2>
         <textarea 
