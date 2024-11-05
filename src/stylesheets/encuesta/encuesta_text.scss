@@ -1,0 +1,63 @@
+.encuesta {
+    font-size: 16pt; // Adjust the size as needed
+    text-align: center;
+    margin-bottom: 1px;
+    font-family: 'Fraunces', serif;
+    
+    
+    .titulo-encuesta {
+        font-family: 'Fraunces', serif;
+        font-size: 24px; /* Tamaño de fuente personalizado */
+        font-weight: 700;
+    
+    }
+    .titulo-pregunta,
+    .titulo-puntuacion,
+    .titulo-puntuacion2 {
+        color: #817365;
+        font-family: 'Fraunces', serif;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .pregunta h2 {
+      color: #817365;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    textarea {
+      color: #817365;
+      font-family: 'Fraunces', serif;
+      width: 80%;
+      height: 80px;
+      border: 1px solid #d4c4b7;
+      border-radius: 8px;
+      padding: 10px;
+      font-size: 14px;
+      resize: none;
+    }
+
+    .guardar-btn {
+      font-family: 'Fraunces', serif;
+      background-color: #6fe35a;
+      color: white;
+      font-size: 16px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .guardar-btn:hover {
+      background-color: #7ea377;
+    }
+  }
+
+
+
+
+
+
+
+  
