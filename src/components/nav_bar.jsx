@@ -19,11 +19,11 @@ export const NavBar = () => {
       >
         <img src={Inicio} alt='Inicio' className='nav-bar__icon' />
       </NavLink>
-      <NavLink className={navLinkClass} to='/tendencias'>
-        <img src={recursos} alt='Tendencias' className='nav-bar__icon' />
-      </NavLink>
       <NavLink className={navLinkClass} to='/apoyo'>
-        <img src={Contacto} alt='Apoyo' className='nav-bar__icon' />
+        <img src={recursos} alt='Apoyo' className='nav-bar__icon' />
+      </NavLink>
+      <NavLink className={navLinkClass} to='/contacto'>
+        <img src={Contacto} alt='Contacto' className='nav-bar__icon' />
       </NavLink>
     </nav>
   )

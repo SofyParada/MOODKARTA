@@ -27,7 +27,9 @@ npm run dev
 
 Now you can open http://localhost:5050
 
+
 Una vez abierta la pagina, se recomienda usar la funcion inspeccionar de su navegador y activar la vista de movil.
+
 
 ### Packages included
 
