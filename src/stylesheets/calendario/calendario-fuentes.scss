@@ -1,0 +1,72 @@
+.apoyo-titulo {
+  font-family:  'Fraunces', serif ;
+  font-size: 28px;
+  font-weight: 900;
+  color: #323634;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.calendario-descripcion-1 {
+  font-family:  'Fraunces', serif ;
+  font-size: 22px;
+  font-weight: 600;
+  color: #323634;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.calendario-descripcion-2 {
+  font-family:  'Fraunces', serif ;
+  font-size: 22px;
+  font-weight: 500;
+  color: #323634;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  .bold {
+    font-family:  'Fraunces', serif ;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 5px;
+    align-items: center;
+  }
+
+  .black {
+    font-family:  'Fraunces', serif ;
+    font-weight: 900;
+    margin-top: auto;
+  }
+
+  .texto {
+    font-family: 'Fraunces', serif; // Change to your desired font
+    font-size: 15pt; // Adjust the size as needed
+    color: #575757; // Adjust the color as needed
+    font-weight:200;
+    display: inline-block;
+    text-align: left;
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  .button-icon {
+    margin-left: 20px; // Adjust the spacing between the image and text
+    margin-top: -30px;
+    width: 50px; // Adjust the size of the image
+    height: 50px; // Adjust the size of the image
+    margin-right: 20px;
+
+  }
+}
+
+
+
+
+
