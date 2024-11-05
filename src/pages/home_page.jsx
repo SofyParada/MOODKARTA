@@ -104,10 +104,15 @@ export const HomePage = () => {
 
       <div className='footer'>
         <p className='footer-left'> 
-        <span style={{textDecoration: 'underline'}}>¿Quiénes Somos? <br /> </span>
+        <span style={{textDecoration: 'underline', fontFamily: "Fraunces", fontWeight:"500"}}>¿Quiénes Somos? <br /> </span>
         Benjamín Gutiérrez <br />
         Sofía Parada <br />
         Carolina Muñoz
+        </p>
+
+        <p className='footer-right'>
+        MoodKarta <br />
+        
         </p>
       </div>
     </>
