@@ -1,0 +1,47 @@
+.tendencias-titulo {
+  font-family:  'Fraunces', serif ;
+  font-size: 28px;
+  font-weight: 900;
+  color: #323634;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.tendencias-descripcion-1 {
+  font-family:  'Fraunces', serif ;
+  font-size: 22px;
+  font-weight: 600;
+  color: #323634;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.tendencias-descripcion-2 {
+  font-family:  'Fraunces', serif ;
+  font-size: 22px;
+  font-weight: 300;
+  color: #323634;
+  text-align: center;
+  
+  .bold {
+    font-family:  'Fraunces', serif ;
+    font-weight: 600;
+    margin-top: auto;
+  }
+
+  .black {
+    font-family:  'Fraunces', serif ;
+    font-weight: 900;
+    margin-top: auto;
+  }
+
+  .button-icon {
+    margin-left: 10px; // Adjust the spacing between the image and text
+    width: 50px; // Adjust the size of the image
+    height: 50px; // Adjust the size of the image
+    margin-bottom: -15px; // Optional: adjust the vertical alignment
+  }
+}
+
+
+
