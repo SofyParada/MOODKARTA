@@ -1,7 +1,12 @@
 .encuesta {
+    overflow-y: auto;
     font-size: 16pt; // Adjust the size as needed
     text-align: center;
+    font-family: 'Fraunces', serif;
     margin-bottom: 1px;
+    height: auto;
+    min-height: 100vh
+
   }
 
 .titulo-encuesta {
