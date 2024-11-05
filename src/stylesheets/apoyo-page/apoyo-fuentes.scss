@@ -1,0 +1,62 @@
+.apoyo-titulo {
+  font-family:  'Fraunces', serif ;
+  font-size: 28px;
+  font-weight: 900;
+  color: #323634;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.apoyo-descripcion-1 {
+  font-family:  'Fraunces', serif ;
+  font-size: 22px;
+  font-weight: 600;
+  color: #323634;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.apoyo-descripcion-2 {
+  font-family:  'Fraunces', serif ;
+  font-size: 22px;
+  font-weight: 500;
+  color: #323634;
+  text-align: center;
+  margin: auto;
+  
+  .bold {
+    font-family:  'Fraunces', serif ;
+    font-weight: 600;
+    margin-top: auto;
+  }
+
+  .black {
+    font-family:  'Fraunces', serif ;
+    font-weight: 900;
+    margin-top: auto;
+  }
+
+  .texto {
+    font-family: 'Fraunces', serif; // Change to your desired font
+    font-size: 15pt; // Adjust the size as needed
+    color: #2e70d3; // Adjust the color as needed
+    text-decoration: none;
+    text-align: center;
+    font-weight:200;
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 10px;
+  }
+
+  .button-icon {
+    margin-right: 1px; // Adjust the spacing between the image and text
+    width: 50px; // Adjust the size of the image
+    height: 50px; // Adjust the size of the image
+    margin-bottom: -15px; // Optional: adjust the vertical alignment
+  }
+}
+
+
+
