@@ -39,7 +39,6 @@ export const Encuesta = () => {
   return (
     <div className="encuesta">
       <h1 classname="titulo-encuesta">Encuesta Diaria</h1>
-  
       <div className="pregunta">
         <h2 classname="titulo-encuesta"><center>Pregunta 1</center></h2>
         <textarea 
