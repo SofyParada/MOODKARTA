@@ -41,14 +41,13 @@
     font-family: 'Fraunces', serif; // Change to your desired font
     font-size: 15pt; // Adjust the size as needed
     color: #000000; // Adjust the color as needed
-    text-decoration: none;
     text-align: center;
     font-weight:light;
     text-decoration: underline;
-    display: inline-block;
     margin-left: 35px;
-    margin-right: 35px;
     margin-top: 10px;
+    word-wrap: break-word;
+    white-space: normal;
   }
 
   .button-icon {
