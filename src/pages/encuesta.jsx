@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Opcion from '../assets/opcion.jpg'
-import Opcion2 from '../assets/opcion2.jpg'
+import Opcion from '../assets/opcion.png'
+import Opcion2 from '../assets/opcion2.png'
 
 
 export const Encuesta = () => {

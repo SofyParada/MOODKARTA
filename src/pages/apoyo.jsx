@@ -17,7 +17,7 @@ export const Apoyo = () => {
     <div className='apoyo-page'>
         <p className='apoyo-titulo'> Recursos de Apoyo
         </p>
-        <p className='apoyo-descripcion-1'> Aqui tienes algunos links <br />relacionados a tus emociones <br />
+        <p className='apoyo-descripcion-1'> Aquí tienes algunos links <br />relacionados a tus emociones <br />
         </p>
 
         <div className='apoyo-descripcion-2'>
@@ -34,7 +34,10 @@ export const Apoyo = () => {
         </div>
 
         <button className='bottom-left-button' onClick={() => handleNavigate('/tendencias')}>
-          <img src={Izquierda} height={50} alt='FlechaIzquierda' />
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <img src={Izquierda} height={50} alt='FlechaIzquierda' />
+            <span style={{ marginLeft: '10px', fontFamily: 'Fraunces', fontWeight: '600', color: '#817365' }}>Tendencias</span>
+          </div>
         </button>
 
     </div>

@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+
 import ticket from '../assets/ticket.png';
 import noRegistrado from '../assets/NOregistrado.png';
+import Izquierda from '../assets/flechaizquierda.png';
 
-const Registro = () => {
+export const Registro = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = (path) => {
+    navigate(path);
+  };
+
   const encuestas = [
     { fecha: '30/10/2024', completado: true, emoji: '😀' },
     { fecha: '31/10/2024', completado: false, emoji: '-' },
@@ -13,6 +22,7 @@ const Registro = () => {
     { fecha: '5/11/2024', completado: true, emoji: '😎' },
     { fecha: '6/11/2024', completado: false, emoji: '-' },
   ];
+
 
   return (
     <div className="registro-container">
@@ -37,6 +47,13 @@ const Registro = () => {
           </tbody>
         </table>
       </div>
+
+      <button className='arrow-left-button' onClick={() => handleNavigate('/calendario')}>
+            <div style={{ display: 'flex', alignItems: 'center' }}>
+                <img src={Izquierda} height={50} alt='FlechaIzquierda' />
+                <span style={{ marginLeft: '10px', fontFamily: 'Fraunces', fontWeight: '600' , color: '#817365' }}> Calendario </span>
+            </div>
+      </button>
     </div>
   );
 };

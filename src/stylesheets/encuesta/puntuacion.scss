@@ -6,13 +6,13 @@
 
 label {
   display: flex;
-  flex-direction: column; /* Coloca el número sobre el círculo */
+  flex-direction: column; 
   align-items: center;
 }
 
 .opcion-imagen {
-  width: 30px; /* Ajusta el tamaño según sea necesario */
-  height: 30px;
+  width: 20px; /* Ajusta el tamaño según sea necesario */
+  height: 20px;
   align-items: center;
   cursor: pointer;
 }

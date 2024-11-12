@@ -5,12 +5,6 @@
   background-color: #f4f4f9;
   min-height: 100vh;
 
-  h1 {
-    font-size: 28px;
-    color: #5b5b63;
-    margin-bottom: 10px;
-  }
-
   h2 {
     font-size: 22px;
     color: #817365;
@@ -49,7 +43,15 @@ td {
 }
 
 .status-icon {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
 }
 
+.bottom-left-button {
+  position: fixed;
+  background: none;
+  border: none;
+  cursor: pointer;
+  bottom: 50px; 
+  left: 20px;
+}

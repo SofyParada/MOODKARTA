@@ -5,7 +5,7 @@ import Serio from '../assets/serio.png'
 import Triste from '../assets/triste.png'
 import Enojo from '../assets/enojo.png'
 import Feliz from '../assets/feliz.png'
-import Izquierda from '../assets/flechaizquierda.png'
+import Derecha from '../assets/flechaderecha.png'
 
 
 export const Calendario = () => {
@@ -16,9 +16,8 @@ export const Calendario = () => {
     };
 
     return (
-    <div>
-        <p className='calendario-titulo'> Calendario
-        </p>
+    <div className='calendario-page'>
+        <p className='apoyo-titulo'> Calendario </p>
         <p className='calendario-descripcion-1'> Lunes 4 de Noviembre: <br />
             <div className='calendario-descripcion-2'>
                 <img src={Serio} height={50} alt='Serio' className='button-icon' />
@@ -63,17 +62,16 @@ export const Calendario = () => {
                 </p>
             </div>   
         </p>
-        <br /> <br />
 
-
-
-        <button className='bottom-left-button' onClick={() => handleNavigate('/')}>
-          <img src={Izquierda} height={50} alt='FlechaIzquierda' />
+        <button className='arrow-right-button' onClick={() => handleNavigate('/registro-encuestas')}>
+            <div style={{ display: 'flex', alignItems: 'center' }}>
+                <span style={{ marginRight: '10px', fontFamily: 'Fraunces', fontWeight: '600' , color: '#817365' }}>Historial</span>
+                <img src={Derecha} height={50} alt='FlechaDerecha' />
+            </div>
         </button>
 
     </div>
-
-  )
-}
+  );
+};
 
 export default Calendario
