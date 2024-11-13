@@ -2,10 +2,10 @@
     font-family: 'Fraunces', serif;
     padding: 20px;
     border-radius: 8px;
-    text-align: center;
     color: #3b2b28;
     max-width: 400px;
     margin: auto;
+    margin-bottom: 40px;
   }
 
 
@@ -17,10 +17,11 @@
   }
 
   .descripcion {
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 10px;
     line-height: 1.5;
     color: #6d5d5a;
+    text-align: center;
   }
 
   .contacto-lista {
@@ -32,24 +33,25 @@
 
   .contacto-item {
     display: flex;
-    align-items: center;
-    margin: 15px 0;
-    width: 60%;
+    margin: 15px;
+    width: 50%;
   }
 
   .icono {
-    width: 20px; /* Ajusta el tamaño de la imagen según sea necesario */
-    height: 20px;
+    width: 25px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 25px;
     margin-right: 10px;
   }
 
   .nombre {
+    font-size: 18px;
     font-weight: bold;
-    font-size: 16px;
     margin: 0;
+
   }
 
   .contacto-info {
-    font-size: 14px;
+    font-size: 16px;
     color: #6d5d5a;
+
   }
