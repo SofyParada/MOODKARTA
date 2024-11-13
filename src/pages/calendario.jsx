@@ -62,6 +62,8 @@ export const Calendario = () => {
                 </p>
             </div>   
         </p>
+        
+        <div className='bottom-space'></div> {/* This is a div to add space at the bottom of the page */}
 
         <button className='arrow-right-button' onClick={() => handleNavigate('/registro-encuestas')}>
             <div style={{ display: 'flex', alignItems: 'center' }}>

@@ -7,3 +7,21 @@
   bottom: 50px; 
   left: 20px;
 }
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  flex: 0 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.text-container {
+  flex: 0 0 80%;
+  text-align: left;
+}

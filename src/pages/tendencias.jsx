@@ -35,8 +35,8 @@ export const Tendencias = () => {
 
         <button className='bottom-right-button' onClick={() => handleNavigate('/apoyo')}>
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <img src={Derecha} height={50} alt='FlechaDerecha' />
             <span style={{ marginLeft: '10px', fontFamily: 'Fraunces', fontWeight: '600' , color: '#817365' }}>Recursos de apoyo</span>
+            <img src={Derecha} height={50} alt='FlechaDerecha' />
           </div>
         </button>
 
