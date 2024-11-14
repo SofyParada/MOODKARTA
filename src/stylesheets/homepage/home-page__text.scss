@@ -1,7 +1,14 @@
+
 .home-page__text {
     font-family: 'Fraunces', serif; // Change to your desired font
     font-size: 16pt; // Adjust the size as needed
     color: #817365; 
     text-align: center;
     margin-bottom: 1px;
+  }
+
+  .content {
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos el alto de la pantalla */
+    padding-bottom: 10px; /* Añade espacio para que el footer no tape el contenido */
+    box-sizing: border-box;
   }

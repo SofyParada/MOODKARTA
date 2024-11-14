@@ -12,6 +12,12 @@
     font-family:  'Fraunces', serif ;
     font-size: 16pt;
     font-weight: 600;
+    max-width: 400px; /* Ajusta el tamaño máximo de los botones */
+
+
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 
     
     .button-icon {
