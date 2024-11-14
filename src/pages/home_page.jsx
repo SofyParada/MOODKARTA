@@ -75,7 +75,7 @@ export const HomePage = () => {
           Encuesta Diaria
         </button>
         
-        <button className='home-page__button' onClick={() => handleNavigate('/registro-encuestas')}>
+        <button className='home-page__button' onClick={() => handleNavigate('/registro')}>
           <img src={RegistroEncuestas} alt="icon" className="button-icon"/>
           Registro de Encuestas
         </button>
