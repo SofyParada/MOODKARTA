@@ -5,6 +5,7 @@
   background-color: #f4f4f9;
   min-height: 100vh;
 
+
   h2 {
     font-size: 22px;
     color: #817365;
@@ -20,6 +21,11 @@
   
 }
 
+.registro-container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .table-container {
   overflow-x: auto;
   max-width: 100%;
@@ -33,6 +39,7 @@
 table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 td {
@@ -40,11 +47,15 @@ td {
   font-size: 16px;
   color: #333;
   border-bottom: 1px solid #ddd;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 .status-icon {
   width: 30px;
   height: 30px;
+  height: auto;
+  max-width: 100%;
 }
 
 .bottom-left-button {
@@ -54,4 +65,14 @@ td {
   cursor: pointer;
   bottom: 50px; 
   left: 20px;
+}
+
+@media (max-width: 600px) {
+  .registro-container {
+    font-size: 14px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+  }
+
+  td img {
+    max-width: 20px; /* Ajusta el tamaño de los iconos en pantallas pequeñas */
+  }
 }
