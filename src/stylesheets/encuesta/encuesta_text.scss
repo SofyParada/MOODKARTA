@@ -43,8 +43,6 @@
     resize: none;
   }
 
-
-
   .guardar-btn {
     font-family: 'Fraunces', serif;
     background-color: #6fe35a;
@@ -60,3 +58,16 @@
   .guardar-btn:hover {
     background-color: #7ea377;
   }
+
+  .terminar-btn {
+    font-family: 'Fraunces', serif;
+    background-color: #0c4d01;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

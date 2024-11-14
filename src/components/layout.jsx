@@ -11,6 +11,7 @@ import ScrollToTop from '../components/scrolltotop'
 import Calendario from '../pages/calendario'
 import Contacto from '../pages/contacto'
 
+
 const Layout = () => {
   return (
     <BrowserRouter>
@@ -22,7 +23,7 @@ const Layout = () => {
             <Route path='/' element={<HomePage />} />
             <Route path='/tendencias' element={<Tendencias />} />
             <Route path='/encuesta-diaria' element={<Encuesta />} />
-            <Route path='/registro-encuestas' element={<Registro />} />
+            <Route path='/registro' element={<Registro />} />
             <Route path='/apoyo' element={<Apoyo />} />
             <Route path='/calendario' element={<Calendario />} />
             <Route path='/contacto' element={<Contacto/>} />

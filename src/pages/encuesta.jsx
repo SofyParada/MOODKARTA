@@ -1,12 +1,16 @@
 import React, { useState } from 'react'
 import Opcion from '../assets/opcion.png'
 import Opcion2 from '../assets/opcion2.png'
+import { useNavigate } from 'react-router-dom';
 
 
 export const Encuesta = () => {
   const [text, setText] = useState('');
   const [puntuacion, setPuntuacion] = useState(0);
   const [opcionSeleccionada, setOpcionSeleccionada] = useState(null);
+  const [showModal, setShowModal] = useState(false);
+
+  const navigate = useNavigate();
 
   const handleTextChange = (event) => {
     setText(event.target.value);
@@ -16,6 +20,7 @@ export const Encuesta = () => {
       // Caso 1: Hay texto y una puntuación seleccionada
       alert('Encuesta Diaria Guardada!');
       console.log('Message sent:', text);
+      setShowModal(true); // Muestra el modal tras guardar la respuesta
       window.location.reload(); // Refresh the page
     } else if (!text.trim() && puntuacion === 0) {
       // Caso 3: No hay ni texto ni puntuación
@@ -28,13 +33,22 @@ export const Encuesta = () => {
       alert('Debes seleccionar una puntuación.');
     }
   };
-  
+
 
   const seleccionarOpcion = (index) => {
     setOpcionSeleccionada(index);
     setPuntuacion(index + 1); // Guarda la puntuación según la opción seleccionada
   };
+
+
+  const handleFinishClick = () => {
+    setShowModal(true)
+  }
   
+
+  const handleNavigate = (path) => {
+    navigate(path);
+  };
 
   return (
     <div className="encuesta">
@@ -62,6 +76,7 @@ export const Encuesta = () => {
               <span className="numero-puntuacion">{i + 1}</span>
             </label>
           ))}
+
           </div>
           <p className="puntuacion-descripcion">
           1: muy malo<br />
@@ -71,11 +86,26 @@ export const Encuesta = () => {
         <button className="guardar-btn" onClick={handleSendMessage}>
           Guardar respuestas
         </button>
+
+        <p></p>
+        <button className="terminar-btn" onClick={handleFinishClick}>
+          Terminar
+        </button>
+
+      {showModal && (
+        <div className="modal">
+          <div className="modal-content">
+            <p>¿Qué deseas hacer?</p>
+            <button onClick={() => handleNavigate('/')}>Salir</button>
+            <button onClick={() => handleNavigate('/registro')}>Ver Respuestas</button>
+            <button onClick={() => setShowModal(false)}>Cancelar</button>
+          </div>
+        </div>
+      )}
       </div>
     </div>
     
   )
-  
 }
 
 export default Encuesta
