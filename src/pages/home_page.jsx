@@ -84,9 +84,9 @@ export const HomePage = () => {
           <div className = "modalOverlayStyles">
             <div className = "modalStyles">
               <h3>¿Estás seguro de que quieres guardar?</h3>
-              <button onClick={handleSave}>Guardar</button>
-              <button onClick={handleEdit}>Editar</button>
-              <button onClick={handleCloseModal} style={{ marginTop: '10px' }}>Cancelar</button>
+              <button onClick={handleSave} className="button button-primary">Guardar</button>
+              <button onClick={handleEdit} className="button button-secondary">Editar</button>
+              <button onClick={handleCloseModal} className="button button-danger" style={{ marginTop: '10px' }}>Cancelar</button>
             </div>
           </div>
         )}
