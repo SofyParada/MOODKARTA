@@ -7,12 +7,12 @@
 }
 
 .arrow-right-button {
-  position: sticky;
+  position: fixed;
   background: none;
   border: none;
   cursor: pointer;
   bottom: 45px; 
-  right: 30px; 
+  right: 5px; 
   width: 100%;
   display: flex;
   align-items: center;
